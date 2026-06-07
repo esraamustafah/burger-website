@@ -64,17 +64,18 @@ body{
     padding: 30px 50px;
 }
 .b1{
-    background-color: rgb(238, 178, 104);
+    background-color: rgb(118, 21, 21);
     border-radius: 5px;
     width: 210px;
     padding: 10px 10px;
-    border: rgb(238, 178, 104) solid 2px;
+    border: rgb(118, 21, 21) solid 2px;
 }
 .b1 a{
     text-decoration: none;
-    color: black;
+    color: white;
     padding: 30px 10px;
     font-weight: 550;
+    
 }
 .disc{
     color: white;
@@ -112,7 +113,7 @@ body{
 .menu1{
     display: flex;
     flex-direction: column;
-    background-color: rgb(171, 171, 171);
+    background-color: rgb(118, 21, 21);
     border: gray solid 1px;
     transition: all ease-in-out 0.3s;
 }
@@ -138,6 +139,7 @@ body{
 }
 .title-menu,.disc-menu,.price{
     padding: 0px 10px;
+    color: white;
 }
 .b2{
     height: 40px;
@@ -181,6 +183,7 @@ body{
     width: 170px;
     height: 34px;
     border-radius: 10px;
+    border: rgb(118, 21, 21) solid 2px;
 }
 .b3 a{
     color: white !important;
@@ -232,7 +235,7 @@ body{
     margin-bottom: 0;
 }
 .p3{
-    padding: 10px 10px;
+    padding: 15px 15px;
     transform: translateY(-40px);
 }
 footer {
@@ -249,8 +252,8 @@ footer p{
 }
 .fb a{
     text-decoration: none;
-    color:  rgb(118, 21, 21) ;
-    padding: 10px 10px;
+    color:  rgb(177, 32, 32) ;
+    padding: 15px 15px;
 }
 .fb{
     transform: translateY(-60px);
