@@ -221,22 +221,34 @@ body{
 }
 .footer{
     background-color: black;
-    display: flex;
     gap:140px;
+}
+.footer-2{
+    display: flex;
+    gap: 130px;
 }
 .locations-alex{
     display: flex;
     flex-direction: column;
+    gap: 1px;
 }
 .locations-cairo{
     display: flex;
     flex-direction: column;
 }
-.locations-cairo p{
+.locations-cairo a{
     color: white;
+    text-decoration: none;
 }
-.locations-alex p{
+.locations-cairo a:hover{
+    color: rgb(118, 21, 21);
+}
+.locations-alex a{
     color: white;
+    text-decoration: none;
+}
+.locations-alex a:hover{
+    color: rgb(118, 21, 21);
 }
 .h3 ,.p4 ,.p3{
     color: white;
@@ -254,7 +266,6 @@ body{
 }
 footer {
     background-color: black;
-    margin-top: -15px;
 }
 footer p{
     color: white;
@@ -263,6 +274,7 @@ footer p{
     text-align: center;
     align-items: center;
     padding: 10px 10px;
+    margin-bottom: 0;
 }
 .fb a{
     text-decoration: none;
