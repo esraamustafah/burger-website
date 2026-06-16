@@ -1,10 +1,12 @@
 html{
     scroll-behavior: smooth;
+    scroll-padding-top: 85px !important;
 }
 body{
     margin: 0;
     padding: 0;
     font-family: 'Montserrat' , sans-serif;
+    padding-top: 85px;
 }
 .home{
     background-image: url(assest/bg.jpg) !important;
@@ -19,6 +21,16 @@ body{
 .nav-header{
     background-color: black;
     height: 85px;
+    width: 100%;
+    z-index: 1000;
+    position: fixed;
+    top :0;
+    left : 0;
+}
+.nav-bar{
+    top:0;
+    left: 0;
+    margin-top: -90px;
 }
 .nav-bar ul{
     list-style: none;
@@ -28,15 +40,16 @@ body{
     justify-content:end;
     color: white;
     place-items: center;
-    padding: 15px 15px;
-    top:0;
-    right: 0;
-    position: absolute;
+    padding: 15px 15px; 
+    top :0;
+    left : 0;
 }
 .nav-bar a{
     transition: all ease 0.3s;
     text-decoration: none;
     color: white !important;
+    top :0;
+    left : 0;
 }
 .nav-bar a:hover{
     transform: scale(1.05);
@@ -198,8 +211,9 @@ body{
     top: 0;
     left: 0;
     font-size: 40px;
-    display: inline;
+    display: inline-block;
     padding: 30px 10px;
+    color : black;
 }
 .image-holmes{
     display: flex;
@@ -257,4 +271,25 @@ footer p{
 }
 .fb{
     transform: translateY(-60px);
+}
+@media(max-width:780px){
+    .nav-bar li a{
+        display: none;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+    }
+    .images-texts{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .locations-alex ,.locations-cairo{
+        padding: 10px 30px;
+    }
 }
